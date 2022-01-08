@@ -1,0 +1,16 @@
+.mainPage{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.mainImg{
+    grid-column: 2 /span 2;
+}
+
+@media (max-width:400px){
+    .mainPage{
+        display: block;
+    }
+}
+
